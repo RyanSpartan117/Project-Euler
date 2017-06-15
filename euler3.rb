@@ -14,7 +14,6 @@ class PrimeFactorisation
 	end
 
 	def largest_prime_number array
-		array
 		array = array.flatten
 		array = array.select {|num| is_prime(num)}
 		array.inject(0){|largest, nextNum| largest > nextNum ? largest : nextNum }
