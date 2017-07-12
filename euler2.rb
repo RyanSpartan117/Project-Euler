@@ -16,7 +16,6 @@ class Fibonnaci
 			secondFib = nextFib
 			i = currentFib + secondFib
 			
-
 		end
 		fibArray
 	end
